@@ -1,0 +1,22 @@
+.contact-container {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #43cea2, #185a9d); /* Blue-green gradient */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+  .contact-container h1 {
+    font-size: 3rem;
+  }
+  
+  .contact-container p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  

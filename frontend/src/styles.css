@@ -1,0 +1,138 @@
+
+input, button {
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+}
+
+button {
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-text {
+  color: blue;
+  cursor: pointer;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background: white;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+.container {
+  max-width: 1000px;
+  /* Adjust width to fit properly */
+  max-height:1000px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.input-group label {
+  flex: 1;
+  text-align: left;
+}
+
+.input-group input {
+  flex: 2;
+  padding: 5px;
+}
+.main-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.prediction-box {
+  max-height: 90vh; /* Prevents form from going out of screen */
+  overflow-y:auto ;  /* Enables scrolling if content exceeds height */
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column; /* Ensures labels and inputs are aligned */
+  margin-bottom: 8px;
+}
+/* Hide scrollbar for the entire page */
+.main-heading {
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+color: #333;
+margin-bottom: 20px;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+overflow: auto; /* Prevent scroll */
+}
+
+.auth-box, .prediction-box {
+width: 90%;
+max-width: 400px;
+padding: 20px;
+background: white;
+border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-input {
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+
+.feature-input label {
+font-size: 14px;
+font-weight: bold;
+}
+
+.feature-input input {
+width: 60%;
+}
+

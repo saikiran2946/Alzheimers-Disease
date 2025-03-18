@@ -1,0 +1,12 @@
+Age
+BMI
+DietQuality
+SleepQuality
+CholesterolTotal
+CholesterolHDL
+CholesterolTriglycerides
+MMSE
+FunctionalAssessment
+MemoryComplaints
+BehavioralProblems
+ADL
